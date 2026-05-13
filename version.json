@@ -1,1 +1,1 @@
-﻿{"version":"1.7.1","changelog":"AI-агент: goal_state, user_facts, эскалация, авто-обновление"}
+{"version":"1.8.0","sha256":"217fdd986ff9e3b7448248cc51a8ef40ed1422d4a1cd0d7be3c65462d7b9affa","changelog":"Разбивка eel.py на модули, session_helpers, captcha helper, sort rules в JSON, брендинг, SHA256-проверка обновлений, уведомление о доступном обновлении"}
