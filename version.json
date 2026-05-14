@@ -1,1 +1,1 @@
-{"version":"1.8.1","sha256":"3fd2284f3341329aaf526ec9dd4c4914e73fb92b9688187cd57b1c8edf25c0c8","changelog":"Рефакторинг tech debt (P0-P2), авто-обновление с SHA256, TAARS скрыт до готовности"}
+{"version":"1.8.2","sha256":"3107bab2cbdb5c0ebb07e463149b0598d4c3296a88b05f4eeb6d6cce8f116f5b","changelog":"fix: spintax в рассылке (текст с переносами строк теперь отправляется одним собранным сообщением, как в preview)\nimprovements: FloodWait cap (30 мин) добавлен в 14 операций — предотвращает зависание акков на 24+ часа"}
