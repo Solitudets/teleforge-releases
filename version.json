@@ -1,1 +1,1 @@
-{"version":"1.9.1","sha256":"9e2b3a7c6bdd3cc19b87b13d8219a27b029b305ade036f6c31f375dfe53ba297","changelog":"fix(v1.9.1) hotfix: JS-краш в buyer.js блокировал инициализацию страницы (refresh/mass-op не работали у новых юзеров). python_socks теперь в bundle (socks5-прокси наконец работают в exe). Updater swap через os.startfile (раньше .bat не успевал запуститься). Размер 80MB→50MB (исключён ненужный opentele/Qt5). UX hint если convert.exe не найден."}
+{"version": "1.9.2", "sha256": "ED838E27CD3A0CFDCADECEDE1203C18333DD841BA081E0645D0485B062C72F19"}
