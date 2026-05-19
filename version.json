@@ -1,1 +1,1 @@
-{"version":"1.9.3","sha256":"701e4a0e56c3beb614efa2475efc4ee8087f40ff69238eca7a4c5899e1a4ce02"}
+{"version":"1.9.4","sha256":"36d63bfca76b41f94786f2ce8a233f36d6bed43da90152ea2d6baa5b03617682","changelog":"Хотфикс: входящие сообщения в инбоксе не появлялись при заимствованных сессиях (borrowed). Причина: event.get_sender() вызывал сетевой запрос через loop mейлинга из inbox-loop → RuntimeError. Фикс: event.sender (из TL-пакета, без запроса) + fallback client.get_entity через managed-прокси."}
