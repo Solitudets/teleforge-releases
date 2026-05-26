@@ -1,1 +1,1 @@
-﻿{"version":"2.0.8","url":"https://github.com/Solitudets/teleforge-releases/releases/latest/download/TeleForge.exe","notes":"fix: dialogs not loading"}
+{"version":"2.0.9","url":"https://github.com/Solitudets/teleforge-releases/releases/latest/download/TeleForge.exe","notes":"fix: updater BOM + iter_dialogs crash"}
