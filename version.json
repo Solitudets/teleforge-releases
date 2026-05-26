@@ -1,1 +1,1 @@
-﻿{"version":"2.0.6","url":"https://github.com/Solitudets/teleforge-releases/releases/latest/download/TeleForge.exe","notes":"inbox stability, proxy blacklist 3-strike, updater fix"}
+﻿{"version":"2.0.7","url":"https://github.com/Solitudets/teleforge-releases/releases/latest/download/TeleForge.exe","notes":"fix: iter_dialogs crash on borrowed clients"}
