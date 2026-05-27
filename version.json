@@ -1,1 +1,1 @@
-{"version":"2.1.1","url":"https://github.com/Solitudets/teleforge-releases/releases/latest/download/TeleForge.exe","notes":"fix(inbox): mailing-first event loop bug in adopted client"}
+{"version":"2.2.0","url":"https://github.com/Solitudets/teleforge-releases/releases/latest/download/TeleForge.exe","sha256":"a996adb198d2ea2e781fb565464ab4ad6d9b8a1c4ec0901d2ecff536902aac4e","notes":"Disk persist кеша диалогов (мгновенный старт), session state indicators, media on-demand, history TTL 60s, typing dedup, кучка bug fixes"}
