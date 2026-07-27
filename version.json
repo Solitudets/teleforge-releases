@@ -1,7 +1,7 @@
 {
-  "version": "2.6.6",
-  "sha256": "a1f8091bae3d844cbb3ba8cb425c3e91d68ac40e2f0ac16e13659bc36c9fad4b",
-  "sig": "qkHCtZiXhttI9GDjYGNQM+gdSoDj6m4APmiZTMFHq1I6H9fz4aM/21evhLCuBHCqde0PeOYnSHrTNtS2rlMQAw==",
-  "sig2": "6Yl5cPW5t9qEqX6dQi55/1/W/4rNvhaU/RJOkCAkDnjGpW+gf6uNkSOB2B2pJ1rdWh2R0yRm5x+FksW0lk6vBg==",
-  "changelog": "v2.6.6 — рассылка больше не простаивает. После обновления протокола MTProto скрытие трафика (обфускация) перестало работать корректно и вызывало таймауты и зависания при массовых операциях. Чтобы избежать постоянных простоев с каждым новым обновлением Telegram, эта фича убрана — рассылка стала заметно быстрее и стабильнее (подключение и авторизация ускорились в разы, таймаутов больше нет). Если Telegram у вас режут по DPI и вы работаете без прокси, вернуть скрытие трафика можно в config.ini: [PROXY] use_obfuscated_transport = True."
+  "version": "2.6.7",
+  "sha256": "e5faa61fed15c0a12381942b2341222e50c8faee35dea669d7fdccf55f50ecb4",
+  "sig": "H610+56UGuE2n4Y8QQNtQsZnwvXkcGfxvHWLnhAr1gCEvK3HgKm+NQiK1XUxBbpnQ0IpWHzJOdiWmsAIIaHRCg==",
+  "sig2": "YF6KqShxN/nZiGwvyChmNk++6LMbxmVkefw+xlssBfIMbkzijzIW3KhFkI2IuquxpkFjIB5SJfYbRKKoFsoWBQ==",
+  "changelog": "v2.6.7 — улучшена проверка прокси в прокси-менеджере: теперь показывает реальную достижимость Telegram (пинг до прокси + пинг до Telegram), а не только открыт ли порт. Прокси «живой, но к Telegram не пускает» (гео-блок или битый маршрут до серверов Telegram) больше не отмечается рабочим — сразу видно, что именно не так. Плюс внутренние улучшения устойчивости к нестабильным и медленным прокси."
 }
