@@ -1,7 +1,7 @@
 {
-  "version": "2.6.7",
-  "sha256": "e5faa61fed15c0a12381942b2341222e50c8faee35dea669d7fdccf55f50ecb4",
-  "sig": "H610+56UGuE2n4Y8QQNtQsZnwvXkcGfxvHWLnhAr1gCEvK3HgKm+NQiK1XUxBbpnQ0IpWHzJOdiWmsAIIaHRCg==",
-  "sig2": "YF6KqShxN/nZiGwvyChmNk++6LMbxmVkefw+xlssBfIMbkzijzIW3KhFkI2IuquxpkFjIB5SJfYbRKKoFsoWBQ==",
-  "changelog": "v2.6.7 — улучшена проверка прокси в прокси-менеджере: теперь показывает реальную достижимость Telegram (пинг до прокси + пинг до Telegram), а не только открыт ли порт. Прокси «живой, но к Telegram не пускает» (гео-блок или битый маршрут до серверов Telegram) больше не отмечается рабочим — сразу видно, что именно не так. Плюс внутренние улучшения устойчивости к нестабильным и медленным прокси."
+  "version": "2.6.8",
+  "sha256": "70bd00e0bcd39e650a4cf0a8bf7375ad88539b733bcb6a4da6d28934649c06ce",
+  "sig": "RwzMfKWhX11oOHB6TfmwkU42kKJIIK481IFEEsB6bK0k7w3Gb31lWcwJA4Sadn3hk/AO7jCQDsk7LNeu1tLwAg==",
+  "sig2": "yBPjigoCvrZ30eoC/lulU70jqch8sPvOg87KWzjmiuR8W+KA+1dZv/dM5KDyD8lh6U+Yf/lrsB4bFlg2aWZiBQ==",
+  "changelog": "v2.6.8 — ротация прокси в реальном времени: инбокс сам переезжает на новый IP при смерти/торможении прокси, а рассылка едет следом — без остановки и без риска для аккаунта (включена по умолчанию). Инбокс: ответ на сообщение с цитатой, расширенные реакции и панель эмодзи, карточка профиля собеседника (фото с датами, месяц/год регистрации, страна номера). Снятие спамблока устойчиво к перегрузке сервиса капчи (ретрай). Заголовок окна = имя exe-файла. Доработан device-fingerprint аккаунтов + мелкие улучшения интерфейса и стабильности."
 }
